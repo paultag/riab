@@ -14,7 +14,7 @@ $ sudo su -s /bin/bash minion
 ## write nginx config
 
 ```
-$ sudo cat > /etc/nginx/sites-enabled/${FQDN} <<EOF
+$ sudo tee /etc/nginx/sites-enabled/${FQDN} <<EOF
 server {
     listen 80;
     listen [::]:80;
