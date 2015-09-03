@@ -43,3 +43,9 @@ EOF
 ```
 % reprepoman infra
 ```
+
+## install minica
+
+## install deceive
+
+## install minion
