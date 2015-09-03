@@ -28,8 +28,8 @@ server {
         autoindex on;
     }
 }
-$ sudo service nginx restart
 EOF
+$ sudo service nginx restart
 ```
 
 ## clone tooling
