@@ -4,9 +4,8 @@
 
 ```
 $ export FQDN=some.fqdn.here
-$ sudo adduser minion --system --home=/srv/${FQDN}/
 $ sudo addgroup repo
-$ sudo usermod -a -G repo minion
+$ sudo adduser minion --group repo --system --home=/srv/${FQDN}/
 $ sudo usermod -a -G repo `whoami`
 $ sudo su -s /bin/bash minion
 ```
