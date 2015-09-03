@@ -28,6 +28,7 @@ server {
         autoindex on;
     }
 }
+$ sudo service nginx restart
 EOF
 ```
 
